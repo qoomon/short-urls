@@ -1,5 +1,5 @@
 # short-urls
 
+[Edit Redirecst](https://github.com/qoomon/short-urls/edit/main/redirects.yaml)
 
-- To add, edit or remove redirects adjust [redirects.yaml](/edit/main/redirects.yaml)
-- Got to [http://short.qoo.monster/](http://short.qoo.monster/)`<ALIAS>`
+Short URL adresse pattern: [http://short.qoo.monster/](http://short.qoo.monster/)`<ALIAS>`
