@@ -5,7 +5,7 @@ const outputDir = './_site';
 await fs.mkdir(outputDir, { recursive: true });
 
 const redirectsYaml = await fs.readFile('./redirects.yaml', 'utf-8');
-const redirects = YAML.parse(redirectsYaml)
+const redirects = YAML.parse(redirectsYaml);
 
 const redirectHtmlTemplate = await fs.readFile('./redirect.template.html', 'utf-8');
 
