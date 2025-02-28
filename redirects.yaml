@@ -2,7 +2,7 @@
 # - alias: ALIAS
 #   url: https://example.org
 
-- alias: ''
+- alias: index
   url: https://github.com/qoomon/short-urls
 
 - alias: q
