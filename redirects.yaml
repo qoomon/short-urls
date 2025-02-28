@@ -2,6 +2,9 @@
 # - alias: ALIAS
 #   url: https://example.org
 
+- alias: ''
+  url: https://github.com/qoomon/short-urls
+
 - alias: q
   url: https://qoo.monster
   
