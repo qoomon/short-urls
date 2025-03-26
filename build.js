@@ -13,5 +13,9 @@ console.log('Redirects:');
 for (const redirect of redirects) {
     console.log(`  ${redirect.alias} => ${redirect.url}`);
     const redirectHtml = redirectHtmlTemplate.replaceAll('${{url}}', redirect.url);
-    await fs.writeFile(`${outputDir}/${redirect.alias}.html`, redirectHtml);
+
+    const aliases = Array.isArray(redirect.alias) ? redirect.alias : [redirect.alias]
+    for (const alias of aliases) {
+        await fs.writeFile(`${outputDir}/${alias}.html`, redirectHtml);
+    }
 }
